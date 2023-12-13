@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<h1>Customer Management</h1>
+
+    
+    <form id="authForm" onsubmit="authenticateUser(); return false; ">
+        <label for="login_id">Login ID:</label>
+        <input type="text" id="login_id" name="login_id" required>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required>
+
+        <button type="submit">Authenticate User</button>
+    </form>
+	 <script src="Login.js"></script>
+</body>
+</html>
